@@ -1,1 +1,12 @@
 @import "tailwindcss";
+@import "flowbite";
+
+body {
+    background: #0f0f10;
+    color: #fff;
+  }
+  
+  input,
+  textarea {
+    color: white;
+  }

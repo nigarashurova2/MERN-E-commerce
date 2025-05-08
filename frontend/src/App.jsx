@@ -1,9 +1,16 @@
+import {Outlet} from 'react-router-dom';
+import {ToastContainer} from 'react-toastify';
+import Navigation from "./pages/Auth/Navigation";
+import 'react-toastify/dist/ReactToastify.css'
 
 function App() {
   return (
     <>
-      <p className="bg-amber-500 text-5xl ">Hello</p>
-    
+    <ToastContainer/>
+    <Navigation/>
+    <main className='py-3'>
+      <Outlet/>
+    </main>
     </>
   )
 }
